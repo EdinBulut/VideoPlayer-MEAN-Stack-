@@ -1,0 +1,3 @@
+<div class="list-group list-group-flush" *ngFor="let video of videos">
+    <a (click)="onSelect(video)" style="cursor: pointer; border-bottom: 2px solid whitesmoke;" class="list-group-item list-group-item-action">{{video.title}}</a>
+</div>
